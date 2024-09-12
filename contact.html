@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+        <a href="./index.html" target="_self" class="tab-button ">Home</a>
+        <a href="./about.html"target="_self" class="tab-button">About Me</a>
+        <a href="./contact.html" target="_self" class="tab-button active">Contact Me</a>
+        <a href="./gallery.html" target="_self" class="tab-button">Gallery</a>
+    </nav>
+    </header>
+
+
+    <main>
+        <section id="contact" class="active">
+        <h2>Contact Me</h2>
+        <p> Please Feel Free to Message or Mail me  </p>
+        <p>You can find my socials at :</p>
+        <br>
+        <ul>
+            <li>Email: tarunkanagala@gmail.com</li>
+            <li>Phone: 9123456789</li>
+            <li>LinkedIn:<a href="https://www.linkedin.com/in/tarunkanagala/" target="_blank"> @tarunkanagala</a> </li>
+            <li> Github: <a href="https://github.com/tarunkanagala123" target="_blank">  @tarunkanagala</a></li>
+            <li> Research:<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4482690" target="_blank">Research</a> </li>
+        </ul>
+        <br>
+        <p> Or Fill out this Form and I'll reply to your query in 1-2 days.</p>
+        <form class="contact-form" >
+            <label for="fname">Full Name</label> <br>
+            <input type="text"  id ="fname" required minlength="3" maxlength="30"><br>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" required minlength="5" maxlength="25">
+            <br>
+            <label for="message" >Message</label><br>
+            <input type="freeform" id="message" required minlength="5" maxlength="100">
+            <br>
+            
+            <input type="submit" value="Send" id="send">
+        </form>
+        </section>
+    </main> 
+    <footer>
+        <small> Copyright © 2024 Built by Tarun Kanagala .</small>
+    </footer>
+    </body>
+</html>
